@@ -1,0 +1,164 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  .first-section {
+    background-image: url("images/donation13.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+  }
+.text-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+.link-button {
+    text-align: center;
+    text-decoration: none;
+    background-color: indianred;
+    color: white;
+    font-weight: 900;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/* Second Section start */
+.second-section {
+  margin: auto;
+  width: 55%;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.donate-amount {
+  display: flex;
+}
+.donate-amounts {
+  box-shadow: 10px 10px 10px gray;
+  width: 80px;
+  height: 50px;
+  margin: 20px;
+  padding: 20px;
+}
+#second-amount {
+  box-shadow: 10px 10px 10px gray;
+  width: 80px;
+  height: 50px;
+  margin: 20px;
+  padding: 20px;
+  background-image: linear-gradient(orange, gray);
+  border: 3px solid salmon;
+  border-radius: 2px;
+}
+.other-amount {
+  border-bottom: 2px solid tomato;
+  width: 700px;
+  margin-bottom: 30px;
+}
+/* Third Section */
+.third-section {
+  margin: auto;
+  width: 70%;
+  margin-bottom: 100px;
+}
+.third-header {
+  text-align: center;
+}
+.shelter-display {
+  display: flex;
+}
+#food-family {
+  width: 300px;
+  background-color: lightblue;
+  margin-left: 2%;
+  padding: 10px;
+}
+#shelter-family {
+  width: 300px;
+  background-color: lightcyan;
+  margin-left: 2%;
+  padding: 10px;
+}
+#child-education {
+  width: 300px;
+  background-color: lightgray;
+  margin-left: 2%;
+  padding: 10px;
+}
+/* Fourth Section Start */
+.fourth-section {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  margin-bottom: 50px;
+}
+.half-width {
+  width: 50%;
+  margin: 0 10px;
+}
+.half-width img {
+  width: 100%;
+  margin-top: 35px;
+}
+/* Fifth Section Start */
+.fifth-section {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  margin-bottom: 50px;
+}
+.half-width img {
+  width: 100%;
+  margin-top: 35px;
+}
+/* Sixth Section Start */
+.sixth-section {
+  margin: auto;
+  width: 70%;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.email-subscribe-button {
+  display: flex;
+  background-color: lightcoral;
+  border-radius: 5px;
+  height: 250px;
+}
+#email {
+  background-color: gray;
+  width: 40%;
+  height: 20px;
+  text-align: left;
+  padding: 10px;
+  border-radius: 2px;
+  margin-left: 140px;
+  margin-top: 115px;
+}
+#subscribe {
+  background-color: brown;
+  width: 20%;
+  height: 20px;
+  padding: 10px;
+  border-radius: 2px;
+  margin-top: 115px;
+}
+/* Footer Section */
+.footer-align {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.footer-color {
+  color: indigo;
+}
